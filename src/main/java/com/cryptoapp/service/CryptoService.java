@@ -19,7 +19,7 @@ public class CryptoService {
     private RestTemplate restTemplate;
 
     public Map<String, Map<String, Object>> getCryptoPrice(String id) {
-        String url = UriComponentsBuilder.fromHttpUrl(API_URL)
+        String url = UriComponentsBuilder.fromUriString(API_URL)
                 .queryParam("ids", id)
                 .queryParam("vs_currencies", "usd")
                 .toUriString();
