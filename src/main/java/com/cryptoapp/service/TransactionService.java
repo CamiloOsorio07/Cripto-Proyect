@@ -1,4 +1,3 @@
-
 package com.cryptoapp.service;
 
 import com.cryptoapp.model.Transaction;

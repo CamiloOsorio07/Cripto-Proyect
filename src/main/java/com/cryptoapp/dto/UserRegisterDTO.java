@@ -1,4 +1,3 @@
-
 package com.cryptoapp.dto;
 
 import jakarta.validation.constraints.Email;

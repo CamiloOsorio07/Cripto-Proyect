@@ -1,4 +1,3 @@
-
 package com.cryptoapp.repository;
 
 import com.cryptoapp.model.User;

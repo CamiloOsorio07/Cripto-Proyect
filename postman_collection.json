@@ -1,6 +1,6 @@
 {
   "info": {
-    "name": "Crypto Backend - Entrega2 (secure)",
+    "name": "Crypto Backend - Entrega2 Prueba ",
     "_postman_id": "crypto-backend-collection-secure",
     "description": "Colecci\u00f3n para probar endpoints del backend seguro",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -21,12 +21,12 @@
           "raw": "{\n  \"nombre\": \"Caiman\",\n  \"correo\": \"test@crypto.com\",\n  \"password\": \"secret123\"\n}"
         },
         "url": {
-          "raw": "http://localhost:8080/api/users/register",
+          "raw": "http://localhost:8081/api/users/register",
           "protocol": "http",
           "host": [
             "localhost"
           ],
-          "port": "8080",
+          "port": "8081",
           "path": [
             "api",
             "users",
@@ -41,12 +41,12 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/users",
+          "raw": "http://localhost:8081/api/users",
           "protocol": "http",
           "host": [
             "localhost"
           ],
-          "port": "8080",
+          "port": "8081",
           "path": [
             "api",
             "users"
@@ -60,12 +60,12 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/crypto/price/bitcoin",
+          "raw": "http://localhost:8081/api/crypto/price/bitcoin",
           "protocol": "http",
           "host": [
             "localhost"
           ],
-          "port": "8080",
+          "port": "8081",
           "path": [
             "api",
             "crypto",

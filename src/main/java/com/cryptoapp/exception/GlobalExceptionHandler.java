@@ -1,4 +1,3 @@
-
 package com.cryptoapp.exception;
 
 import org.springframework.http.HttpStatus;

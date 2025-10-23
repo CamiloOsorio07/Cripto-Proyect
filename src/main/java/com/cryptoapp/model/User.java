@@ -1,4 +1,3 @@
-
 package com.cryptoapp.model;
 
 import jakarta.persistence.*;
